@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Next Frontier — where reality can still bite</title>
+<style>
+  :root{
+    --bg:#0a0710; --panel:#140d20; --edge:#2e2148; --ink:#ece3f7; --dim:#9a86bd; --faint:#6b5a8c;
+    --violet:#a78bfa; --violet2:#c4b5fd; --glow:#7c3aed;
+    --live:#34d399; --dark:#22d3ee; --mirage:#fb7185; --anom:#fbbf24;
+    --mono:'SFMono-Regular',ui-monospace,Menlo,Consolas,monospace;
+    --serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--serif);line-height:1.55;
+    background-image:radial-gradient(1200px 600px at 72% -10%,#1a1030 0%,transparent 60%),
+      radial-gradient(900px 520px at 0% 100%,#150b28 0%,transparent 55%);}
+  .wrap{max-width:940px;margin:0 auto;padding:42px 26px 90px}
+  header{border-bottom:1px solid var(--edge);padding-bottom:22px;margin-bottom:28px}
+  .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:var(--violet);opacity:.9}
+  h1{font-size:33px;line-height:1.12;margin:.32em 0 .18em;font-weight:600}
+  h1 em{color:var(--violet2);font-style:italic}
+  .sub{color:var(--dim);font-size:15.5px;max-width:76ch}
+  .principle{font-family:var(--mono);font-size:12px;color:var(--faint);margin-top:16px;border-left:2px solid var(--glow);padding-left:11px}
+  .principle b{color:var(--violet)}
+  section{margin:34px 0}
+  h2{font-size:14px;font-family:var(--mono);letter-spacing:.18em;text-transform:uppercase;margin:0 0 4px;padding-left:11px;border-left:3px solid}
+  h2.live{color:var(--live);border-color:var(--live)} h2.dark{color:var(--dark);border-color:var(--dark)}
+  h2.mirage{color:var(--mirage);border-color:var(--mirage)}
+  .ssub{color:var(--dim);font-size:14px;margin:6px 0 16px;padding-left:11px;max-width:80ch}
+  .card{background:linear-gradient(180deg,var(--panel),#100a1b);border:1px solid var(--edge);border-radius:13px;padding:16px 18px;margin-bottom:14px}
+  .card h3{margin:0 0 3px;font-size:18px;font-weight:600}
+  .card .meta{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);margin-bottom:9px}
+  .row{display:grid;grid-template-columns:70px 1fr;gap:8px;margin:5px 0;font-size:14px}
+  .row .k{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--violet);padding-top:3px}
+  .row .val{color:var(--dim)} .row .val b{color:var(--ink);font-weight:400}
+  .verdict{font-family:var(--mono);font-size:11px;font-weight:600;padding:3px 9px;border-radius:6px;display:inline-block;margin-top:4px}
+  .v-open{color:#04150d;background:var(--live)} .v-wound{color:#1a0a02;background:var(--anom)}
+  .v-dark{color:#04212b;background:var(--dark)} .v-mirage{color:#1a0410;background:var(--mirage)}
+  .close{background:linear-gradient(180deg,#1c1230,#120b22);border:1px solid var(--violet);border-radius:14px;padding:22px;margin-top:28px;font-size:15px;line-height:1.62}
+  .close b{color:var(--violet2)}
+  .note{color:var(--dim);font-size:13px;border-left:2px solid var(--edge);padding-left:13px;margin:16px 0 0}
+  .note b{color:var(--violet2);font-weight:400}
+  code{font-family:var(--mono);font-size:.9em;color:var(--violet2);background:#170f28;padding:1px 5px;border-radius:5px}
+  footer{margin-top:40px;border-top:1px solid var(--edge);padding-top:18px;color:var(--faint);font-family:var(--mono);font-size:11px;line-height:1.7}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="kicker">Purple Paper - the close of the physics arc</div>
+  <h1>The Next Frontier - where reality can still <em>bite</em></h1>
+  <div class="sub">A frontier is not a destination, and "promising" is not a property of an idea - it's a property of
+    whether the idea can be <em>tested</em>. So this is not a list of answers. It's a map of the open forks, sorted by
+    the one thing that separates a real frontier from a mirage: <b>can the witness still reach it?</b> A fork reality
+    can still collapse is the frontier. A fork that refuses to bet is a costume.</div>
+  <div class="principle">The whole sorting rule, in one line: <b>a real frontier is a fork where reality can still
+    bite and hasn't yet. A mirage is a fork built so it can never be bitten.</b> Beautiful math lives in both. Only
+    the first is science.</div>
+</header>
+
+<section>
+  <h2 class="live">I · Live frontier — the witness can reach it now</h2>
+  <p class="ssub">These forks make distinguishable bets that current or near-future experiments can collapse. This is
+    where the real action is, because reality can still say no.</p>
+
+  <div class="card">
+    <h3>What <em>is</em> dark matter?</h3>
+    <div class="meta">the longest open problem in physics</div>
+    <div class="row"><span class="k">the fork</span><span class="val">A new particle (WIMP, axion, something lighter and weirder), or not a particle at all.</span></div>
+    <div class="row"><span class="k">the test</span><span class="val">Three independent hunts: <b>direct</b> (xenon tanks underground, wait for a nucleus to recoil), <b>indirect</b> (telescopes watching for annihilation glow), <b>production</b> (collider missing-energy). Cross-checking by design.</span></div>
+    <div class="row"><span class="k">status</span><span class="val">The detectors keep coming up <b>empty</b>. The favored WIMP is squeezed into smaller corners. The nulls are real information - the witness saying "not here," over and over.</span></div>
+    <span class="verdict v-open">OPEN · testable · the favored branch is dying</span>
+  </div>
+
+  <div class="card">
+    <h3>Modified gravity — maybe the bending is in the rule, not a hidden object</h3>
+    <div class="meta">MOND · modified inertia · Verlinde's emergent gravity</div>
+    <div class="row"><span class="k">the fork</span><span class="val">Maybe there's no missing <em>matter</em> - maybe the <em>law</em> that turns mass into motion is slightly wrong at galactic scales, and the "extra gravity" is a feature of the rule. The honest version of "the bending is an implementation artifact."</span></div>
+    <div class="row"><span class="k">the test</span><span class="val">A real object can separate from the light it's near; a law-artifact can't. So: collide two galaxy clusters and see if the mass walks away from the gas.</span></div>
+    <div class="row"><span class="k">status</span><span class="val"><b>Wounded, not dead.</b> It nails galaxy rotation curves better than dark matter - but <em>fails</em> the Bullet Cluster (where mass visibly parted from light) and the cosmic microwave background. The witness bit it, hard.</span></div>
+    <span class="verdict v-wound">WOUNDED · half-falsified · wins small, loses big</span>
+  </div>
+
+  <div class="card">
+    <h3>The precision anomalies — the ASK gate, at civilizational scale</h3>
+    <div class="meta">muon g−2 · W boson mass · the Hubble tension</div>
+    <div class="row"><span class="k">the fork</span><span class="val">Does a hyper-precise measurement disagree with the Standard Model in a way that survives every attempt to kill it? A crack, or a mistake?</span></div>
+    <div class="row"><span class="k">the test</span><span class="val">Re-measure, re-calculate, demand independent replication. The Hubble tension is literally two independent measurements of the expansion rate (early-universe vs late) <em>refusing to agree</em>.</span></div>
+    <div class="row"><span class="k">status</span><span class="val"><b>Genuinely unresolved and moving.</b> Some anomalies have firmed up; others (muon g−2) got muddier as the theory side shifted. This is the field correctly in the ASK state - not guessing - while the tie resolves.</span></div>
+    <span class="verdict v-open">OPEN · the most likely shape of the next breakthrough</span>
+  </div>
+
+  <div class="card">
+    <h3>Why do neutrinos have mass?</h3>
+    <div class="meta">the crack we already know is real</div>
+    <div class="row"><span class="k">the fork</span><span class="val">The Standard Model says neutrinos should be massless. They aren't (proven, Nobel 2015). So there's new physics here - a heavy partner particle? The reason matter beat antimatter?</span></div>
+    <div class="row"><span class="k">the test</span><span class="val">Hunt for neutrinoless double-beta decay (would prove the neutrino is its own antiparticle), measure the masses, watch the oscillations precisely.</span></div>
+    <div class="row"><span class="k">status</span><span class="val"><b>A confirmed hole in a complete theory.</b> We know the Standard Model is incomplete <em>here</em>, for certain - which makes it one of the most grounded frontiers there is.</span></div>
+    <span class="verdict v-open">OPEN · the incompleteness is proven</span>
+  </div>
+</section>
+
+<section>
+  <h2 class="dark">II · Dark frontier — the witness can't reach it yet</h2>
+  <p class="ssub">Real questions, possibly the deepest ones - but the place they'd be answered is past where any current
+    experiment can go. Not mirages (they'd make distinguishable predictions <em>if</em> we could test them) - just
+    beyond the witness's current reach. The honest word here is <em>dark</em>, not <em>done</em>.</p>
+
+  <div class="card">
+    <h3>Quantum gravity — unifying gravity with the rest</h3>
+    <div class="meta">the great unfinished unification · lives below the Planck length</div>
+    <div class="row"><span class="k">the fork</span><span class="val">Can gravity (curvature) and the quantum world be one theory? Strings, loop quantum gravity, something unborn?</span></div>
+    <div class="row"><span class="k">the test</span><span class="val">Would require probing ~10⁻³⁵ m - where the energy to look closer collapses into a black hole and hides the answer. The microscope builds the wall.</span></div>
+    <div class="row"><span class="k">status</span><span class="val"><b>The biggest prize, the least reachable.</b> Elaborate math on all sides, almost none of it currently distinguishable by experiment. Drift that can't yet be pruned - which is exactly why the field fights about whether it's progress or stalling.</span></div>
+    <span class="verdict v-dark">DARK · real but currently un-witnessable</span>
+  </div>
+
+  <div class="card">
+    <h3>What was the Big Bang, and what (if anything) is "before"?</h3>
+    <div class="meta">initial conditions · the white-hole question · the arrow of time</div>
+    <div class="row"><span class="k">the fork</span><span class="val">Why did the universe start in such low entropy? Is the Big Bang describable as a white hole? Where does time's arrow come from?</span></div>
+    <div class="row"><span class="k">the test</span><span class="val">Faint - the CMB and gravitational-wave background carry whispers of the first instant, but the moment itself is behind a curtain no instrument has crossed.</span></div>
+    <div class="row"><span class="k">status</span><span class="val"><b>Partly witnessable (the CMB is real data), mostly dark.</b> The givens - the constants, the initial low entropy - are the hardcoded inputs the no-top theorem says you can read off but not derive.</span></div>
+    <span class="verdict v-dark">DARK · the edge of the witnessable</span>
+  </div>
+</section>
+
+<section>
+  <h2 class="mirage">III · Mirage — not a frontier, a costume</h2>
+  <p class="ssub">These <em>feel</em> like frontiers and explain nothing, because they're built so no observation could
+    ever contradict them. Beautiful, flexible, and un-prunable. Listed here not to mock but to mark the line - because
+    the difference between II and III is the whole discipline.</p>
+
+  <div class="card">
+    <h3>"We're in a simulation / it's the inside of a compiler"</h3>
+    <div class="meta">the empty box, wearing sci-fi</div>
+    <div class="row"><span class="k">the fork</span><span class="val">Reality is computed; the anomalies are rendering artifacts.</span></div>
+    <div class="row"><span class="k">the test</span><span class="val"><b>None.</b> It's compatible with every possible observation, so it forbids none, so it predicts nothing. And it only relocates the mystery one floor up - the simulator's universe still has the same questions.</span></div>
+    <div class="row"><span class="k">the rescue</span><span class="val">Strip the costume and there's a <em>real</em> idea inside: "maybe the bending is in the rule, not a hidden object." That idea is testable - it's modified gravity, up in section I, where it got bitten. Same instinct, made to bet. <em>That's</em> the move: take the un-prunable hunch and find the version that risks being wrong.</span></div>
+    <span class="verdict v-mirage">MIRAGE · un-prunable · but has a testable twin</span>
+  </div>
+</section>
+
+<div class="close">
+  <b>So where is the next frontier?</b> Not in any one of these answers - in the <em>sorting</em>. The live frontier
+  (dark matter's nature, the anomalies, the neutrino crack) is promising precisely because reality can still say no to
+  it. The dark frontier (quantum gravity, the first instant) is deeper and may be the real prize, but it's behind the
+  witness's reach, so honesty calls it <em>dark</em>, not <em>solved</em>. And the mirages aren't frontiers at all -
+  they're forks dressed up to be un-falsifiable, and the only thing to do with them is find their testable twin and
+  send <em>that</em> to the witness.
+  <br><br>
+  The promising thing isn't a theory. It's the <b>method</b>: drift forward to a fork, find the version that makes a
+  distinguishable bet, and let reality collapse it - over and over, in perpetuity, the frontier moving but never
+  closing because every resolved fork spawns its children. Dark matter is the cleanest case alive right now: 85% of
+  the matter in the universe, inferred for a century from how everything bends around it, never once touched - the
+  inferred void at cosmic scale - and a string of honest nulls slowly telling us the branch we confidently rode may be
+  the wrong one. <b>That's not failure. That's the witness doing its slow, unglamorous, irreplaceable job: refusing to
+  confirm the favored guess until something real bites.</b> The next frontier is wherever that refusal is still live.
+</div>
+
+<div class="note" style="margin-top:18px">Conceptual map, not computation - the gate here was factual accuracy, not a
+  Node check. The settled physics (Bullet Cluster, neutrino mass, the Planck wall) is solid; the anomaly statuses
+  (muon g−2, W mass, Hubble tension) <b>move year to year</b> and are presented as live-and-contested, not settled. For
+  the freshest state of any one fork, it's worth a live search - this is a snapshot, honestly dated.</div>
+
+<footer>
+  THE NEXT FRONTIER - purple paper - the close of the physics arc<br>
+  sorted by reachability of the witness: LIVE (testable now) · DARK (real but un-witnessable yet) · MIRAGE (un-prunable, find the testable twin)<br>
+  dark matter's nature · the precision anomalies · neutrino mass · quantum gravity · the first instant · and the costumes to tell from frontiers<br>
+  a frontier is a fork reality can still bite — promising is not a property of an idea, it's a property of whether it can be tested
+</footer>
+
+</div>
+</body>
+</html>
