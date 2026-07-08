@@ -4,6 +4,6 @@ slug  : the-next-frontier
 seal  : 2d7d76d915ae40f174fcedf1864bf75fbb1055cf4aa356b086f7bbef34dee7ba
 prev  : 91b07bf9c1af6744d15eff9e70142b585fc26c56d9dfd1c9a3566c52e1202e76
 link  : 1d0bfe44a61e6d74418fb10164dc57fce82dc072c42361476cae3d5de503ca8b
-head  : 3447d3a0533aaf1e29a8bdc67a9774884fb3ae9dbc8a17064b7a008ca3c4ec90
+head  : 13f9ace173ef2e60af38912ba329b4afcb5a38b84a0e4495e8d30327f8c99cc2
 
 — the tether: link = sha256(index|slug|seal|prev). the chain head commits to the whole corpus.
